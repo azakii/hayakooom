@@ -36,7 +36,7 @@
 .serv6 .ser6_arab .pat3{
     bottom: 35vh;
     width: 12%;
-    left: 45vw;
+    left: 71%;
 }
 
 .serv6 .section-cards
@@ -120,3 +120,5 @@
     }
     
 }
+
+.point .row_title {align-items: center;justify-content: space-between;}

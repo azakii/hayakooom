@@ -46,7 +46,7 @@ const Header = () => {
 
   // toggle-nav
   const handleCollapse = () => {
-    console.log("handleCollapse");
+    // console.log("handleCollapse");
     var nav = document.getElementById("navbarSupportedContent");
     var btn = document.getElementById("navbarBtn");
     nav.classList.remove("show");

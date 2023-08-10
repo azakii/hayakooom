@@ -14,13 +14,13 @@ import whatsapp from "../assets/images/whatapp-logo.svg";
 // mobile
 // import hero1Mob from '../assets/images/hero1-mob.svg';
 import hero1Mob from "../assets/images/hero1-mob.png";
-import hero2Mob from "../assets/images/hero2-mob.svg";
+import hero2Mob from "../assets/images/hero2-mob.jpeg";
 // import hero2Mob from '../assets/images/hero2-mobtest.svg';
 
 // services
 import serv1 from "../assets/images/serimg1.png";
 import serv2 from "../assets/images/serv-2.png";
-import serv3 from "../assets/images/serv-3.svg";
+import serv3 from "../assets/images/serv-3.png";
 import serv4 from "../assets/images/servimg4.png";
 import serv5 from "../assets/images/servimg5.png";
 import serv6 from "../assets/images/servimg6.png";
@@ -29,9 +29,9 @@ import serv6 from "../assets/images/servimg6.png";
 // import serv1Mob from '../assets/images/serv1Mob.svg';
 import serv1Mob from "../assets/images/serimg1.png";
 import serv2Mob from "../assets/images/serv2-mob.png";
-import serv3Mob from "../assets/images/serv3mob.svg";
-import serv4Mob from "../assets/images/serv4mob.svg";
-import serv5Mob from "../assets/images/serv5mob.svg";
+import serv3Mob from "../assets/images/serv3mob.png";
+import serv4Mob from "../assets/images/serv4mob.png";
+import serv5Mob from "../assets/images/serv5mob.png";
 import serv6Mob from "../assets/images/serv6-mob.png";
 
 // cites
@@ -39,15 +39,15 @@ import serv6Mob from "../assets/images/serv6-mob.png";
 import city1 from "../assets/images/slider1.png";
 
 // import city2 from "../assets/images/city-2.svg";
-import city2 from "../assets/images/city-2.svg";
+import city2 from "../assets/images/city-2.png";
 
 // import city3 from "../assets/images/cityimg3.png";
-import city3 from "../assets/images/city3.svg";
+import city3 from "../assets/images/cityimg3.png";
 
 // mobile
-import city1mob from "../assets/images/city1-mob.svg";
-import city2mob from "../assets/images/city2-mob.svg";
-import city3mob from "../assets/images/city3-mob.svg";
+import city1mob from "../assets/images/city1-mob.png";
+import city2mob from "../assets/images/city2-mob.png";
+import city3mob from "../assets/images/city3-mob.png";
 
 // import Slider from "react-slick";
 
@@ -82,7 +82,7 @@ const Home = () => {
   }, []);
 
   // const currentLanguageCode = cookies.get('i18next');
-  console.log(currentLanguageCode);
+  // console.log(currentLanguageCode);
   // useEffect(() => {
 
   //   setCurrentLng=currentLanguageCode;
@@ -664,7 +664,7 @@ const Home = () => {
       <Counterup />
 
       {/* FAQ */}
-      <section className="faq " style={{ marginTop: "12vh" }} id="faq">
+      <section className="faq " id="faq">
         <div className="style-title">
           <Container>
             <Row>
