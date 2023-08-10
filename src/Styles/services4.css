@@ -24,7 +24,7 @@ body .serv4 .Title {
     bottom: -20px;
     width: 750px;
     left: 20%;
-    z-index: 5;
+    z-index: 50;
     animation-name: moving4;
     animation-delay: 0s;
     animation-duration: 5s;
@@ -37,7 +37,7 @@ body .serv4 .Title {
     bottom: 0;
     width: 26%;
     left: 50%;
-    z-index: 2;
+    z-index: 0;
 }
 .serv4 .ser4_arab_v .pat1{
     bottom: 0;
