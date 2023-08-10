@@ -24,7 +24,7 @@ const Service3 = () => {
     <div className="serv3">
       <div className="Title ">
         <div className="container py-3">
-          <div className="row ">
+          <div className="row py-5">
             <div className="col-md-6">
               <h3>{t("Fast_Track_Pass")}</h3>
             </div>

@@ -347,9 +347,7 @@
   .navbar-toggler-icon {
     background-image: url(../assets/images/navicon.png) !important;
   }
-  .herocol {
-    /* margin: -22vh 0px !important; */
-  }
+
   .herocol .title {
     margin: 16px 0px !important;
     text-align: left;
