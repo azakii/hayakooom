@@ -63,9 +63,9 @@
     font-family: 'Gotham';
 }
 @media only screen and (max-width: 769px) and (min-width: 426px) {
-    .Title{
+    /* .Title{
         padding-top: 26vh !important;
-    }
+    } */
     .serv5 h3{
         margin-bottom: 4vh !important;
     }
