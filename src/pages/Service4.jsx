@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 
-import pattrn1_4 from "../assets/images/manServ4.svg";
+import pattrn1_4 from "../assets/images/Chauffer-1.gif";
 // import pattrn2_4 from '../assets/images/carser4.png';
-import pattrn2_4 from "../assets/images/carser4.png";
+// import pattrn2_4 from "../assets/images/carser4.png";
 
-import pattrn3_4 from "../assets/images/treeser4.png";
+// import pattrn3_4 from "../assets/images/treeser4.png";
 import whatsapp from "../assets/images/whatapp-logo.svg";
 
 import "../Styles/services4.css";
@@ -35,7 +35,7 @@ const Service4 = () => {
         </div>
         {currentLanguageCode === "ar" ? (
           <div className="ser4_arab_v">
-            <img
+            {/* <img
               src={pattrn1_4}
               alt=".."
               className="pat1 position-absolute"
@@ -49,25 +49,45 @@ const Service4 = () => {
               className="pat3 position-absolute"
               data-aos="zoom-in-up"
               data-aos-delay="2400"
-            />
+            /> */}
+            <div className="meet">
+              <div className="m-auto text-center">  
+                  <img
+                      src={pattrn1_4}
+                      alt=".."
+                      className="pat1 w-75"
+                      data-aos="fade-up"
+                    />
+                    </div>
+              </div>
           </div>
         ) : (
-          <div className="ser4_en_v">
-            <img
-              src={pattrn1_4}
-              alt=".."
-              className="pat1 position-absolute"
-              data-aos="zoom-in-up"
-              data-aos-delay="2400"
-            />
-            <img src={pattrn2_4} alt=".." className="pat2 position-absolute" />
-            <img
-              src={pattrn3_4}
-              alt=".."
-              className="pat3 position-absolute"
-              data-aos="zoom-in-up"
-              data-aos-delay="2400"
-            />
+          // <div className="ser4_en_v">
+          //   <img
+          //     src={pattrn1_4}
+          //     alt=".."
+          //     className="pat1 position-absolute"
+          //     data-aos="zoom-in-up"
+          //     data-aos-delay="2400"
+          //   />
+          //   <img src={pattrn2_4} alt=".." className="pat2 position-absolute" />
+          //   <img
+          //     src={pattrn3_4}
+          //     alt=".."
+          //     className="pat3 position-absolute"
+          //     data-aos="zoom-in-up"
+          //     data-aos-delay="2400"
+          //   />
+          // </div>
+          <div className="meet">
+          <div className="m-auto text-center">  
+              <img
+                  src={pattrn1_4}
+                  alt=".."
+                  className="pat1 w-75"
+                  data-aos="fade-up"
+                />
+                </div>
           </div>
         )}
       </div>

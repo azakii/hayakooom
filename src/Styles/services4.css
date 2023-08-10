@@ -1,11 +1,11 @@
 .serv4 .Title{
     background-color: #EAEAEA;
-    height: 600px;
+    /* height: 600px; */
     /* padding-top: 20vh; */
     position: relative;
 }
 body .serv4 .Title {
-    height: 600px;
+    /* height: 600px; */
 }
 .serv4 .Title h3{
     color: #B87EB7;
@@ -132,7 +132,7 @@ body .serv4 .Title {
         margin-bottom: 4vh !important;
     }
     body .serv4 .Title {
-        height: 400px;
+        /* height: 400px; */
     }
     .serv4 .ser4_en_v .pat1 {
         bottom: 0;

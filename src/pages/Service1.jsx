@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 
-import pattrn1 from "../assets/images/serv1-patr1.png";
-import pattrn2 from "../assets/images/serv1-part2.png";
-import pattrn3 from "../assets/images/serv1-part3.png";
+import pattrn1 from "../assets/images/Meet-And-Greet-1.gif";
+// import pattrn2 from "../assets/images/serv1-part2.png";
+// import pattrn3 from "../assets/images/serv1-part3.png";
 
 import pattrn2ar from "../assets/images/serv1arb.svg";
 
@@ -48,7 +48,7 @@ const Service1 = () => {
           </div>
 
           <>
-            <img
+            {/* <img
               src={pattrn1}
               alt=".."
               className="pat1 w-25 position-absolute"
@@ -65,8 +65,18 @@ const Service1 = () => {
               alt=".."
               className="pat3 position-absolute"
               data-aos="fade-left"
-            />
+            /> */}
           </>
+          <div className="meet">
+          <div className="m-auto text-center">  
+              <img
+                  src={pattrn1}
+                  alt=".."
+                  className="pat1 w-75"
+                  data-aos="fade-up"
+                />
+                </div>
+          </div>
         </div>
       ) : (
         <div className="Title">
@@ -79,7 +89,7 @@ const Service1 = () => {
           </div>
 
           <>
-            <img
+            {/* <img
               src={pattrn1}
               alt=".."
               className="pat1 w-25 position-absolute"
@@ -96,8 +106,19 @@ const Service1 = () => {
               alt=".."
               className="pat3 position-absolute"
               data-aos="fade-left"
-            />
+            /> */}
           </>
+
+          <div className="meet">
+          <div className="m-auto text-center">  
+              <img
+                  src={pattrn1}
+                  alt=".."
+                  className="pat1 w-75"
+                  data-aos="fade-up"
+                />
+                </div>
+          </div>
         </div>
       )}
 
