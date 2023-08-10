@@ -506,7 +506,8 @@
   
     .services .carousel-item img {
       height: 30em;
-      /* object-fit: contain; */
+      object-fit: cover;
+      object-position: left;
     }
     .services .carousel-indicators {
       margin: 0vh 0 !important;
