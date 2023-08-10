@@ -1,0 +1,188 @@
+.serv2 .Title{
+    background-color: #EAEAEA;
+    height: 80vh;
+    /* padding-top: 20vh; */
+    position: relative;
+}
+.serv2 .Title h3{
+    color: #B87EB7;
+    /* font-size: 4.4vw; */
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 990px) {
+    .serv2 .Title .pat1{
+        bottom: 0;
+        left: 20vw;
+    }
+    body .serv2 .Title .pat2{
+        bottom: -49px;
+        width: 80%;
+        left: 15%;
+    }
+}
+.serv2 .Title .pat1{
+    bottom: 0;
+    left: 20vw;
+}
+.serv2 .Title .pat2{
+    bottom: -60px;
+    width: 55%;
+    left: 35vw;
+    z-index: 5;
+    animation-name: moving2;
+    animation-delay: 0s;
+    animation-duration: 5s;
+}
+@keyframes moving2{
+    0%{left: 0; bottom: -60px}
+
+    100%{left:35vw ; bottom: -60px}
+}
+.serv2 .Title .pat3{
+    bottom: 24vh;
+    width: 20%;
+    left: 66vw;
+    z-index: 2;
+}
+.serv2 .Title .ser2_arab{
+    position: relative;
+}
+.serv2 .Title .ser2_arab .pat1{
+    left: 0;
+    bottom: -33vh;
+}
+.serv2 .ser2_arab .pat2{
+    bottom: -41vh;
+    left: 14vw;
+    z-index: 5;
+    animation-name: moving2_ar;
+    animation-delay: 0s;
+    animation-duration: 5s;
+}
+@keyframes moving2_ar{
+    0%{left: 0; bottom: -40vh}
+
+    100%{left: 14vw ; bottom: -40vh}
+}
+.serv2 .ser2_arab .pat3{
+    bottom: -11vh;
+    left: 48vw;
+}
+
+.serv2 .section-cards
+{
+    /* background-color: #fff; */
+    padding: 3rem 0;
+}
+.serv2 .section-cards .point h4{
+    color: #79C95F;
+    font-size: 2vw;
+}
+.serv2 .btn-hero {
+    background-color: #61b848;
+    color: #fff;
+    padding: 1vh 1vw;
+    font-size: 85%;
+    /* margin-top: 4vh; */
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+  }
+  .serv2 .whatsapp {
+    width: 12%;
+  }
+.serv2 .section-cards .point p{
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 200;
+    font-family: 'Gotham';
+}
+
+@media only screen and (max-width: 769px) and (min-width: 426px) {
+
+    .serv2 .section-cards .point h4 {
+        color: #79C95F;
+        font-size: 4vw;
+    }
+    .serv2 .section-cards .point p {
+        font-size: 2.1vw;
+    }
+    .serv2 .Title .pat3 {
+        bottom: 10vh;
+        width: 20%;
+        left: 74vw;
+    }
+    .serv2 .Title .pat1 {
+        bottom: 0;
+        left: 26vw;
+    }
+    .serv2 .Title .pat2 {
+        bottom: -39px;
+        width: 55%;
+        left: 41vw;
+    }
+    @keyframes moving2{
+        0%{left: 0; bottom: -39px}
+    
+        100%{left:41vw ; bottom: -39px}
+    }
+    .serv2 h3{
+    margin-bottom: 64px;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+    .Title{
+        height: 55vh;
+        /* padding-top: 17vh !important ; */
+    }
+    .serv2 .section-cards .point h4{
+        font-size: 5vw;
+    }
+    .serv2 .section-cards .point p{
+        font-size: 4vw;
+    }
+
+    .serv2 .Title .pat1{
+        left: 10%;
+        width: 90%;
+        bottom: -10px;
+        left: 0%;
+        
+    }
+
+  
+    @keyframes moving2{
+        0%{left: 0; bottom: -49px}
+    
+        100%{left:15% ; bottom: -49px}
+    }
+    .serv2 .Title .pat3 {
+        bottom: 10%;
+        width: 30%;
+    }
+    /* arab */
+    .serv2 .Title .ser2_arab .pat1 {
+        left: 0;
+        bottom: 0;
+    }
+    .serv2  .ser2_arab .pat2 {
+        bottom: -10px;
+        left: 17vw;
+        animation-name: moving2_ar;
+        animation-delay: 0s;
+        animation-duration: 5s;
+    }
+    @keyframes moving2_ar{
+        0%{left: 0; bottom: -10px}
+    
+        100%{left:17vw ; bottom: -10px}
+    }
+    /* .serv2 .btn-hero {
+        font-size: 10px;
+        margin-top: 3vh;
+    } */
+}

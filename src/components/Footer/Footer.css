@@ -1,0 +1,140 @@
+.footer {
+  /* background-image: url(../../assets/images/footer-bg.svg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover; */
+  background-color: #104c65;
+  height: auto;
+  padding: 5rem 0;
+}
+
+.footer .footerlogo {
+  width: 10rem;
+}
+.footer .sgslogo {
+  /* bottom: -13rem; */
+  position: absolute;
+  height: 12rem;
+  text-align: center;
+  width: 6%;
+  display: flex;
+  left: 50%;
+}
+.footer h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer a {
+  font-size: 1rem;
+  color: #fff;
+  /* font-family: 'GothamBook'; */
+  display: block;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.footer .icon {
+  color: #fff;
+  margin-right: 4px;
+}
+.footer .qr-logo {
+  width: 75%;
+}
+
+.footer h5 {
+  margin-top: 2rem;
+}
+.footer .pattern {
+  /* position: absolute; */
+  /* top: 58rem; */
+}
+
+@media screen and (max-width: 440px) {
+  .footer .footer_web {
+    display: none;
+  }
+  .footer .footer_mob {
+    display: block !important;
+  }
+
+  .footer .en_v  .footer_mob .accordion-button:not(.collapsed)::after,
+  .footer  .en_v .footer_mob .accordion-button::after{
+     background-image: url(../../assets/images/faqicontest.svg);
+     left: 1rem;
+     position: absolute;
+  }
+  .footer .ar_v .footer_mob .accordion-button:not(.collapsed)::after,
+  .footer .ar_v .footer_mob .accordion-button::after{
+     background-image: url(../../assets/images/faqicontest.svg);
+     left: 1rem;
+     position: absolute;
+  }
+  .footer .connect {
+    margin-top: 4rem;
+  }
+  .footer .accordion-item {
+    border: 0;
+    /* border-bottom: 1px solid #fff; */
+    margin-bottom: 1rem;
+  }
+  .footer .accordion-button {
+    background-color: #104c65;
+    color: #fff;
+    border: 0;
+    border-radius: 0 !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+    justify-content: space-between;
+  }
+ 
+  .footer .accordion-body {
+    background-color: #104c65;
+    color: #fff;
+    text-align: start;
+  }
+  .footer {
+    padding: 0rem 0;
+  }
+  .footer .footerlogo {
+    width: 30% !important;
+  }
+  .footer .qr-logo {
+    /* width: 18rem; */
+    display: none;
+  }
+  .footer .bar-social .icons {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .icons img {
+    width: 70% ;
+  }
+  .footer h5 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .footer a {
+    font-size: 1rem;
+  }
+  .footer .pattern {
+    top: 92%;
+  }
+  .footer .whatsapp {
+    display: block !important;
+    width: 87% !important;
+  }
+  .footer .social {
+    margin-top: 0 !important;
+  }
+  .footer .sgslogo {
+    /* bottom: -13rem; */
+    position: absolute;
+    height: 12rem;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    left: 38%;
+  }
+}

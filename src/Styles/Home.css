@@ -1,0 +1,727 @@
+/* scrolling */
+.scrollTop {
+  position: fixed;
+  color: #61b848;
+  width: 100%;
+  bottom: 20px;
+  left: 43rem;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  /* opacity: 0.5; */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+/* hero */
+
+.hero__section {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.hero__section .carousel {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 110px;
+}
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+  .hero__section .carousel {
+    padding-top: 65px;
+  }
+  #cities {
+    padding-top: 0 !important;
+  }
+  .faq#faq {
+    border-bottom: 1px solid #fff;
+  }
+  .navbar-toggler, .select_lan {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 0 !important;
+  }
+}
+.hero__section .carousel .layout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-image: linear-gradient(-90.66deg, #5c0a5b 32.35%, #ffffff 42.66%);
+  background-color: transparent;
+  opacity: 0.1;
+}
+
+.hero__section .content {
+  position: absolute;
+  z-index: 10;
+  bottom: 35%;
+  color: #fff;
+}
+
+.hero__content h2 {
+  color: #ffffff;
+  font-size: 2vw;
+  font-weight: 700;
+  /* margin: 20px 0px; */
+}
+.hero__content p {
+  color: #ffffff;
+  font-size: .9rem;
+  padding: 10px;
+  text-align: left;
+  font-family: 'Gotham';
+  /* line-height: 5vh; */
+}
+.hero__content .btn-hero {
+  background-color: #61b848;
+  color: #fff;
+  padding: 1vh 1vw;
+  font-size: .9rem;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+}
+.hero__content .whatsapp {
+  width: 12%;
+}
+
+/* services */
+
+.services .style-title {
+  background-image: url(../assets/images/patrServer.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .slider {
+  width: 100%;
+  background-image: url(../assets/images/services-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 75px 0px;
+  height: auto;
+}
+.services .carousel-item {
+  padding: 0 10% !important;
+  /* transition: all 2s ease-out !important; */
+}
+.services .carousel-control-next, .services .carousel-control-prev {opacity: 1;}
+.services .carousel-control-prev-icon,
+.services .carousel-control-next-icon {
+  background-color: #D9D9D9;
+  border-radius: 50%;
+  padding: 3px;
+  height: 3rem;
+  width: 3rem;
+  transition: 1s;
+  opacity: 1;
+}
+.services .carousel-control-prev-icon:hover,
+.services .carousel-control-next-icon:hover {
+  background-color: #61B848;
+}
+.services .carousel-control-prev-icon,
+.services .carousel-control-next-icon {
+  background-size: 65% !important;
+}
+.services h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.services .btn-serv {
+  background-color: #61b848;
+  color: #fff;
+  padding: 0.7vh 5vw;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 0;
+}
+.services .carousel-indicators {
+  margin-bottom: -3rem !important;
+}
+.services .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 132px;
+  margin: 0;
+  opacity: 1;
+  height: 4px;
+}
+.services .carousel-indicators [data-bs-target].active {
+  background-color: #61b848 !important;
+}
+
+/* Cities */
+
+.cities .nav-tabs .nav-link {
+  color: #4e7a8d;
+  font-size: 1.9rem;
+    border: 0;
+    box-shadow: none;
+}
+.cities .nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 0 !important;
+  border-bottom: 2px solid !important;
+}
+.cities .card {
+  border: 0;
+  /* border-radius: 25px; */
+  background-color: #104c65;
+  position: relative;
+}
+.cities .card .datacard {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  line-height: 1.1;
+  z-index: 10;
+}
+.cities .card .datacard_ar {
+  direction: rtl;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  line-height: 1.1;
+  z-index: 10;
+  /* font-family: "GothamMedium"; */
+}
+.cities .card .datacard span {
+  color: #fff;
+  font-size: 3vw;
+  /* font-weight: 800; */
+  color: #61b848;
+}
+.cities .card .datacard p {
+  color: #fff;
+  font-size: 1.7vw;
+  /* font-weight: 600;
+  font-family: 'Gotham'; */
+}
+.cities .card .datacard_ar span {
+  color: #fff;
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: 'Gotham';
+  color: #61b848;
+}
+.cities .card .datacard_ar p {
+  color: #fff;
+  font-size: 1.7vw;
+  font-weight: 600;
+  font-family: 'Gotham';
+}
+.cities .card .btn-city {
+  background-color: #61b848;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  font-size: 1vw;
+  border-radius: 10px;
+  border: 0;
+}
+.cities .card .green_line {
+  position: absolute;
+  bottom: -8px;
+  right: 21%;
+  width: 60%;
+  height: 12px;
+  background-color: #61b848;
+  border: 0;
+}
+
+/* faq */
+.faq {
+  border-bottom: 4px solid #fff;
+  font-family: "GGothamBook";
+  /* font-weight: 400; */
+}
+/* .faq .en_v .accordion-button:not(.collapsed)::after,
+.faq .en_v .accordion-button::after {
+  background-image: url(../assets/images/faqicontest.svg);
+  right: 5px;
+  top: 10px;
+  position: absolute;
+}*/
+ .faq .arab_v .accordion-button:not(.collapsed)::after,
+ .faq .arab_v .accordion-button::after {
+  background-image: url(../assets/images/faqicontest.svg);
+  left: 1rem;
+  position: absolute;
+}  
+.faq .faq__title {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-family: 'Gotham';
+  /* margin-top: 5vh; */
+}
+.faq .style-title {
+  background-image: url(../assets/images/faqpatern.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq .faq_content {
+  background-image: url(../assets/images/bg-faq.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 100vh; */
+}
+.faq .accordion-body {
+  font-weight: 500;
+  font-family: 'Gotham';
+  color: #104c65;
+  font-size: .9rem;
+  /* font-size: 4vw; */
+}
+.faq .accordion-button {
+  background-color: #b87fb7;
+  color: #fff;
+  position: relative;
+  font-family: 'Gotham';
+  font-size: 1.4rem;
+  text-align: inherit;
+  font-weight: 500;
+  box-shadow: none;
+  outline: none;
+}
+.faq .accordion-item {
+  border: 0;
+  margin: 40px 0;
+}
+.accordion-button::after {
+  color: white;
+}
+
+/* media */
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .accordion-button::after {
+    margin-left: 1rem;
+  }
+  /* .scrollTop {
+    position: fixed; 
+    color: #61b848;
+    width: 100%;
+    bottom: 20px;
+    left: 43rem;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  } */
+  .navbar-toggler-icon {
+    background-image: url(../assets/images/navicon.png) !important;
+  }
+  .herocol {
+    /* margin: -22vh 0px !important; */
+  }
+  .herocol .title {
+    margin: 16px 0px !important;
+    text-align: left;
+  }
+
+  .hero__content h2 {
+    /* margin: 2vh !important; */
+    font-size: 5.2vw;
+    font-weight: bolder;
+    text-align: left !important;
+  }
+  .hero__content p {
+    /* line-height: 3vh !important; */
+    font-size: .9rem;
+    text-align: left;
+    padding: 0;
+    /* font-weight: 400; */
+  }
+  .section__title {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 1.75rem;
+    background: #0f4c65;
+    display: inline-block;
+    padding: 0 1rem;
+    border-radius: 0;
+  }
+.carousel-caption .d-flex {flex-direction: column;}
+  .services h5 {
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+  }
+  .services .btn-serv {
+    background-color: #61b848;
+    color: #fff;
+    padding: 8px 15px;
+    margin-bottom: 1vh;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  .services .slider {
+    margin: 0 !important;
+    /* height: 50vh; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .services .style-title {
+    background-size: contain;
+  }
+  .services {
+    margin: 0 !important;
+  }
+  .services .carousel-caption {
+    display: block !important;
+  }
+  /* cities */
+
+  .cities .nav-tabs .nav-link {
+    color: #797979;
+    font-size: 4.9vw;
+    margin: 0 !important;
+  }
+
+  .cities .card .green_line {
+    display: none;
+  }
+  .cities .card .datacard span {
+    font-size: 6vw;
+    line-height: 0;
+  }
+  .cities .card .datacard p {
+    color: #fff;
+    font-size: 5vw;
+    /* line-height: 0; */
+  }
+
+  .faq {
+    margin-top: 0 !important;
+  }
+  .faq .accordion-body {
+    font-size: .9rem;
+  }
+  .faq .style-title {
+    background-size: contain;
+  }
+}
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    section {
+      margin-bottom: 2vh;
+    }
+    .hero__section .content {
+      position: absolute;
+      z-index: 10;
+      bottom: 28px;
+    }
+    .hero__section .carousel-item .web_v {
+      display: none !important;
+    }
+    .hero__section .carousel-item .mob_v {
+      display: block !important;
+      height: 25em;
+      object-fit: cover;
+    }
+    .hero__content .btnbook {
+      /* margin: 0 !important; */
+      text-align: left !important;
+    }
+    .hero__content .btn-hero {
+      background-color: #61b848;
+      color: #fff;
+      padding: 1vh 1vw;
+      font-size: .9rem;
+      font-weight: 500;
+      border: 0;
+      border-radius: 5px;
+    }
+  
+    /* services */
+    .services .style-title {
+      background-image: url(../assets/images/pattern-servmob.svg) !important;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .services .web_v {
+      display: none !important;
+    }
+    .services .mob_v {
+      display: block !important;
+      height: 22em;
+    }
+    .services .carousel-item {
+      padding: 0 0 !important;
+    }
+    .services .carousel-control-prev-icon,
+    .services .carousel-control-next-icon {
+      /* background-color: transparent; */
+      background-size: 70% !important;
+      height: 7vw !important;
+      width: 7vw !important;
+      padding: 10px;
+    }
+    .services .carousel-caption {
+      position: absolute;
+      right: 8%;
+      bottom: 0.1rem;
+      left: 8%;
+    }
+  
+    .services .carousel-item img {
+      height: 30em;
+      /* object-fit: contain; */
+    }
+    .services .carousel-indicators {
+      margin: 0vh 0 !important;
+      bottom: -35px;
+    }
+    /* cities */
+    .cities .nav-tabs {
+      justify-content: space-around !important;
+      margin-top: 4vh;
+    }
+    .cities .city-web {
+      display: none !important;
+    }
+    .cities .imgbox .city-mob {
+      display: block !important;
+      height: 30vh;
+      object-fit: fill;
+      border-radius: 20px;
+    }
+    .cities .card .datacard {
+      position: absolute;
+      bottom: 10%;
+      padding: 0 14px;
+      /* text-align: center; */
+      line-height: 1.1;
+      z-index: 10;
+    }
+    .cities .card .datacard_ar span {
+      color: #fff;
+      font-size: 6vw;
+      font-weight: 800;
+      color: #61b848;
+    }
+    .cities .card .datacard_ar p {
+      color: #fff;
+      font-size: 4.7vw;
+      font-weight: 400;
+      line-height: 3.5vh;
+      /* font-family: "GothamMedium"; */
+    }
+    /* faq */
+    .faq .style-title {
+      background-image: url(../assets/images/pattern-faqMob.svg);
+      /* background-size: cover; */
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .faq .faq__title {
+      color: #fff;
+      font-size: 1.75rem;
+      font-weight: 800;
+      font-family: 'Gotham';
+      /* margin-top: 8vh; */
+    }
+    .faq .accordion-button {
+      background-color: #b87fb7;
+      color: #fff;
+      font-size: 4.5vw;
+      text-align: inherit;
+      /* font-weight: 800; */
+    }
+
+}
+
+/* mobile-small */
+@media only screen and (max-width: 426px) and (min-width: 320px) {
+  section {
+    margin-bottom: 2vh;
+  }
+  .hero__section .content {
+    position: absolute;
+    z-index: 10;
+    bottom: 28px;
+  }
+  .hero__section .carousel-item .web_v {
+    display: none !important;
+  }
+  .hero__section .carousel-item .mob_v {
+    display: block !important;
+    height: 25em;
+    object-fit: cover;
+  }
+  .hero__content .btnbook {
+    /* margin: 0 !important; */
+    text-align: left !important;
+  }
+  .hero__content .btn-hero {
+    background-color: #61b848;
+    color: #fff;
+    padding: 1vh 1vw;
+    font-size: .9rem;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  /* services */
+  .services .style-title {
+    background-image: url(../assets/images/pattern-servmob.svg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px auto;
+  }
+  .services .web_v {
+    display: none !important;
+  }
+  .services .mob_v {
+    display: block !important;
+    height: 22em;
+  }
+  .services .carousel-item {
+    padding: 0 0 !important;
+  }
+  .services .carousel-control-prev-icon,
+  .services .carousel-control-next-icon {
+    /* background-color: transparent; */
+    background-size: 70% !important;
+    height: 7vw !important;
+    width: 7vw !important;
+    padding: 10px;
+  }
+  .services .carousel-caption {
+    position: absolute;
+    right: 8%;
+    bottom: 1.1rem;
+    left: 8%;
+  }
+
+  .services .carousel-item img {
+    height: 22em;
+    object-fit: cover;
+    object-position: left;
+  }
+  .services .carousel-indicators {
+    margin: 0vh 0 !important;
+    bottom: -40px;
+  }
+  /* cities */
+  .cities .nav-tabs {
+    justify-content: space-around !important;
+    margin-top: 4vh;
+  }
+  .cities .city-web {
+    display: none !important;
+  }
+  .cities .imgbox .city-mob {
+    display: block !important;
+    height: 50vh;
+    object-fit: fill;
+    border-radius: 20px;
+  }
+  .cities .card .datacard {
+    position: absolute;
+    bottom: 10%;
+    padding: 0 14px;
+    /* text-align: center; */
+    line-height: 1.1;
+    z-index: 10;
+  }
+  .cities .card .datacard_ar span {
+    color: #fff;
+    font-size: 6vw;
+    font-weight: 800;
+    color: #61b848;
+  }
+  .cities .card .datacard_ar p {
+    color: #fff;
+    font-size: 4.7vw;
+    font-weight: 400;
+    line-height: 3.5vh;
+    /* font-family: "GothamMedium"; */
+  }
+  /* faq */
+  .faq .style-title {
+    background-image: url(../assets/images/pattern-faqMob.svg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .faq .faq__title {
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 800;
+    font-family: 'Gotham';
+    /* margin-top: 8vh; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px auto;
+  }
+  .faq .accordion-button {
+    background-color: #b87fb7;
+    color: #fff;
+    font-size: 4.5vw;
+    text-align: inherit;
+    /* font-weight: 800; */
+  }
+  /* .faq .en_v .accordion-button:not(.collapsed)::after,
+  .accordion-button::after {
+    background-image: url(../assets/images/faqicontest.svg);
+    left: 83vw;
+    top: 4px;
+    position: absolute;
+  }
+  .faq .arab_v .accordion-button:not(.collapsed)::after,
+  .accordion-button::after {
+    background-image: url(../assets/images/faqicontest.svg);
+    right: 76vw;
+    position: absolute;
+  } */
+}

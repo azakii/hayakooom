@@ -1,0 +1,202 @@
+/* google fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");*/
+
+/* @font-face {
+  font-family: Gotham;
+  src: url(../public/Gotham-Font/GothamMedium.ttf);
+  src: url(../public/Gotham-Font/GothamLight.ttf);
+  src: url(../public/Gotham-Font/GothamBold.ttf);
+  src: url(../public/Gotham-Font/Gotham-Bold.otf);
+  src: url(../public/Gotham-Font/Gotham-Black.otf);
+} */
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/Gotham-Font/Gotham-Bold.woff2') format('woff2'),
+      url('../public/Gotham-Font/Gotham-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Gotham';
+  src: url('../public/Gotham-Font/Gotham-BookItalic.woff2') format('woff2'),
+      url('../public/Gotham-Font/Gotham-BookItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/Gotham-Font/Gotham-Black.woff2') format('woff2'),
+      url('../public/Gotham-Font/Gotham-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/Gotham-Font/Gotham-Light.woff2') format('woff2'),
+      url('../public/Gotham-Font/Gotham-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../public/Gotham-Font/Gotham-Medium.woff2') format('woff2'),
+      url('../public/Gotham-Font/Gotham-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/*  css variables */
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #104C65;
+  --hero-bg: #61B848;
+  --faq-bg: #B87FB7;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #104C65;
+}
+
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-weight: 700; */
+
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif; */
+  background-color: #104C65;
+  color: #fff;
+  font-family: 'Gotham';
+  font-weight: 500;
+  /* src: url(../public/Gotham-Font/GothamMedium.ttf); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+img{
+  width: 100%;
+}
+
+/* section{
+  padding: 60px 0px;
+} */
+
+.section__title{
+  color: #fff;
+  font-family: 'Gotham';
+  margin-top: 0;
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+/* scroll-up */
+.top-to-btm{
+  position: relative;
+}
+.icon-position{
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style{
+  background-color: #61B848;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: #61B848;
+  border: 2px solid #61B848;
+}
+.accordion-button::after{
+  background-image: url(../src/assets/images/faqicontest.svg);
+}
+@keyframes movebtn {
+  0%{
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .icon-style{
+    height: 30px;
+    width: 30px;
+  }
+}

@@ -1,0 +1,152 @@
+/* .serv1{
+    font-family: 'GothamThin';
+
+} */
+.serv1 .Title{
+    background-color: #EAEAEA;
+    height: 80vh;
+    /* padding-top: 20vh; */
+    position: relative;
+}
+.serv1 .title_arab_v{
+    height: 100vh;
+    padding-top: 110px;
+}
+
+.serv1 .Title h3{
+    color: #B87EB7;
+    font-size: 3rem;
+    /* position: absolute; */
+}
+.Title {
+    padding-top: 120px;
+}
+.serv1 .Title .pat1{
+    bottom: 0;
+    left: 10vw;
+}
+.serv1 .Title .pat2{
+    bottom: 0px;
+    width: 600px;
+    right: 20%;
+}
+[class^="serv"] .Title h3 {
+    font-size: 3rem;
+}
+
+body [class^="serv"] .Title {
+    height: 800px;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    body [class^="serv"] .Title {
+        height: 400px;
+    }
+    .serv1 .Title .pat2{
+    width: 300px;
+    }
+    .Title {
+        padding-top: 90px;
+    }
+    .Title .row.py-5 {
+        padding-top: 0rem!important;
+        padding-bottom: 0rem!important;
+    }
+    .serv1 .Title img.pat3 {
+        height: 40% !important;
+    }
+    [class^="serv"] .Title h3 {
+        font-size: 2rem;
+    }
+
+    /**/
+
+    .serv2 .Title .pat1 {
+        left: 10%;
+        width: 40% !important;
+    }
+
+    body .serv6 .Title .pat1 {
+        bottom: 0;
+        left: 20px;
+        width: 38%;
+    }
+    body .serv6 .Title .pat2 {
+        bottom: 60px;
+        width: 31%;
+        left: 160px;
+    }
+}
+.serv1 .Title .pat3 {
+    bottom: 0;
+    right: 0;
+    height: 70%;
+    width: auto;
+}
+
+.serv1 .section-cards
+{
+    /* background-color: #fff; */
+    padding: 3rem 0;
+}
+.serv1 .section-cards .point h4{
+    color: #79C95F;
+    font-size: 2vw;
+    font-family: 'Gotham';
+
+}
+.serv1 .section-cards .point p{
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 200;
+    font-family: 'Gotham';
+}
+.serv1 .btn-hero {
+    background-color: #61b848;
+    color: #fff;
+    padding: 1vh 1vw;
+    font-size: 85%;
+    /* margin-top: 4vh; */
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+  }
+  .serv1 .whatsapp {
+    width: 12%;
+  }
+
+@media only screen and (max-width: 769px) and (min-width: 426px) {
+
+    .title_arab_v{
+        padding-bottom: 10vh;
+    }
+    .serv1 h3{
+        margin-bottom: 64px;
+    }
+    .serv1 .section-cards .point h4 {
+        color: #79C95F;
+        font-size: 4vw;
+    }
+    .serv1 .section-cards .point p {
+        font-size: 2.1vw;
+    }
+}
+
+@media only screen and (max-width: 426px) and (min-width: 320px) {
+     .Title{
+        height: 55vh;
+        /* padding-top: 17vh !important ; */
+    }
+    .title_arab_v{
+        padding-bottom: 6vh;
+    }
+    .serv1 .section-cards .point h4{
+        font-size: 5vw;
+    }
+    .serv1 .section-cards .point p{
+        font-size: 4vw;
+    }
+    /* .serv1 .btn-hero {
+        font-size: 10px;
+        margin-top: 3vh;
+    } */
+}
