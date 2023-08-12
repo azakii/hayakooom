@@ -25,6 +25,14 @@ const Service4 = () => {
   const currentLanguageCode = localStorage.getItem("i18nextLng");
   return (
     <div className="serv4">
+            <div className="btnbook mx-4">
+        <a href="http://wa.me/+966556659925" target="blanket">
+          <button type="button" className="btn-hero pb-2">
+            {/* {t("btn_book")} */}
+            <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
+          </button>
+        </a>
+      </div>
       <div className="Title">
         <div className="container py-3">
           <div className="row py-5">
@@ -56,7 +64,7 @@ const Service4 = () => {
                       src={pattrn1_4}
                       alt=".."
                       className="pat1 w-75"
-                      data-aos="fade-up"
+                      // data-aos="fade-up"
                     />
                     </div>
               </div>
@@ -85,7 +93,7 @@ const Service4 = () => {
                   src={pattrn1_4}
                   alt=".."
                   className="pat1 w-75"
-                  data-aos="fade-up"
+                  // data-aos="fade-up"
                 />
                 </div>
           </div>
@@ -98,14 +106,7 @@ const Service4 = () => {
             <div className="point my-5">
               <div className="row_title d-flex" style={{alignItems: "baseline"}}>
                 <h4 className="my-4">{t("Airport_transfer")}</h4>
-                <div className="btnbook mx-3">
-                  <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
-                      {t("btn_book")}
-                      <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
-                    </button>
-                  </a>
-                </div>
+
               </div>
 
               <p>{t("ser4_dec1")}</p>
@@ -114,14 +115,6 @@ const Service4 = () => {
             <div className="point my-5">
               <div className="row_title d-flex" style={{alignItems: "baseline"}}>
                 <h4 className="my-4">{t("Full_day_transfer")}</h4>
-                <div className="btnbook mx-3">
-                  <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
-                      {t("btn_book")}
-                      <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
-                    </button>
-                  </a>
-                </div>
               </div>
 
               <p>{t("ser4_dec2")}</p>
@@ -130,14 +123,6 @@ const Service4 = () => {
             <div className="point my-5">
               <div className="row_title d-flex" style={{alignItems: "baseline"}}>
                 <h4 className="my-4">{t("Within_the_city")}</h4>
-                <div className="btnbook mx-3">
-                  <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
-                      {t("btn_book")}
-                      <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
-                    </button>
-                  </a>
-                </div>
               </div>
               <p>
               {t("ser4_dec3")}
