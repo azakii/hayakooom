@@ -4,9 +4,9 @@
     /* padding-top: 20vh; */
     position: relative;
 }
-body .serv4 .Title {
-    /* height: 600px; */
-}
+/* body .serv4 .Title {
+    height: 600px;
+} */
 .serv4 .Title h3{
     color: #B87EB7;
     /* font-size: 4.4vw; */
@@ -73,19 +73,7 @@ body .serv4 .Title {
     color: #79C95F;
     font-size: 2vw;
 }
-.serv4 .btn-hero {
-    background-color: #61b848;
-    color: #fff;
-    padding: 1vh 1vw;
-    font-size: 85%;
-    /* margin-top: 4vh; */
-    font-weight: 500;
-    border: 0;
-    border-radius: 5px;
-  }
-  .serv4 .whatsapp {
-    width: 12%;
-  }
+
 .serv4 .section-cards .point p{
     color: #fff;
     font-size: 1.2vw;
@@ -131,9 +119,9 @@ body .serv4 .Title {
     .serv4 h3{
         margin-bottom: 4vh !important;
     }
-    body .serv4 .Title {
-        /* height: 400px; */
-    }
+    /* body .serv4 .Title {
+        height: 400px;
+    } */
     .serv4 .ser4_en_v .pat1 {
         bottom: 0;
         left: 2%;

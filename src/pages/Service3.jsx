@@ -23,6 +23,14 @@ const Service3 = () => {
   return (
     <div className="serv3">
       <div className="Title ">
+      <div className="btnbook mx-4">
+        <a href="http://wa.me/+966556659925" target="blanket">
+          <button type="button" className="btn-hero pb-2">
+            {/* {t("btn_book")} */}
+            <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
+          </button>
+        </a>
+      </div>
         <div className="container py-3">
           <div className="row py-5">
             <div className="col-md-6">
@@ -59,14 +67,6 @@ const Service3 = () => {
             <div className="point my-5">
               <div className="row_title d-flex" style={{alignItems: "baseline"}}>
                 <h4 className="my-4">{t("Fast_Track_Pass")}</h4>
-                <div className="btnbook mx-3">
-                  <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
-                      {t("btn_book")}
-                      <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
-                    </button>
-                  </a>
-                </div>
               </div>
 
               <p>{t("ser3_dec1")}</p>

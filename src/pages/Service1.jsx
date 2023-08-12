@@ -6,7 +6,6 @@ import pattrn1 from "../assets/images/Meet-And-Greet-1.gif";
 
 import pattrn2ar from "../assets/images/serv1arb.svg";
 
-
 import whatsapp from "../assets/images/whatapp-logo.svg";
 
 import "../Styles/service1.css";
@@ -37,6 +36,14 @@ const Service1 = () => {
   // console.log(currentLanguageCode);
   return (
     <div className="serv1">
+      <div className="btnbook mx-4">
+        <a href="http://wa.me/+966556659925" target="blanket">
+          <button type="button" className="btn-hero pb-2">
+            {/* {t("btn_book")} */}
+            <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
+          </button>
+        </a>
+      </div>
       {currentLanguageCode === "ar" ? (
         <div className="Title title_arab_v">
           <div className="container py-3">
@@ -68,14 +75,14 @@ const Service1 = () => {
             /> */}
           </>
           <div className="meet">
-          <div className="m-auto text-center">  
+            <div className="m-auto text-center">
               <img
-                  src={pattrn1}
-                  alt=".."
-                  className="pat1 w-75"
-                  data-aos="fade-up"
-                />
-                </div>
+                src={pattrn1}
+                alt=".."
+                className="pat1 w-75"
+                // data-aos="fade-up"
+              />
+            </div>
           </div>
         </div>
       ) : (
@@ -110,14 +117,14 @@ const Service1 = () => {
           </>
 
           <div className="meet">
-          <div className="m-auto text-center">  
+            <div className="m-auto text-center">
               <img
-                  src={pattrn1}
-                  alt=".."
-                  className="pat1 w-75"
-                  data-aos="fade-up"
-                />
-                </div>
+                src={pattrn1}
+                alt=".."
+                className="pat1 w-75"
+                // data-aos="fade-up"
+              />
+            </div>
           </div>
         </div>
       )}
@@ -126,33 +133,22 @@ const Service1 = () => {
         <div className="service-cards">
           <div className="container">
             <div className="point my-5">
-              <div className="row_title d-flex" style={{alignItems: "baseline"}}>
+              <div
+                className="row_title d-flex"
+                style={{ alignItems: "baseline" }}
+              >
                 <h4 className="my-4">{t("s1_Arrival_service")}</h4>
-                <div className="btnbook mx-4">
-                  <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
-                      {t("btn_book")}
-                      <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
-                    </button>
-                  </a>
-                </div>
               </div>
 
               <p>{t("ser1_dec1")}</p>
             </div>
             {/* point2 */}
             <div className="point my-5">
-            <div className="row_title d-flex" style={{alignItems: "baseline"}}>
+              <div
+                className="row_title d-flex"
+                style={{ alignItems: "baseline" }}
+              >
                 <h4 className="my-4">{t("s1_Departure_service")}</h4>
-
-                <div className="btnbook mx-4">
-                  <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
-                      {t("btn_book")}
-                      <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
-                    </button>
-                  </a>
-                </div>
               </div>
               <p>{t("ser1_dec2")}</p>
             </div>

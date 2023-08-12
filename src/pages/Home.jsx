@@ -170,7 +170,7 @@ const Home = () => {
                 <p>{t("hero_dec")}</p>
                 <div className="btnbook text-center my-3">
                   <a href="http://wa.me/+966556659925" target="blanket">
-                    <button type="button" className="btn-hero pb-2">
+                    <button type="button" className="btn_hero pb-2">
                       {t("btn_book")}
                       <img src={whatsapp} alt="" className=" mx-2 whatsapp" />
                     </button>

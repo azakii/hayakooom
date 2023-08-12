@@ -48,19 +48,7 @@
     color: #79C95F;
     font-size: 2vw;
 }
-.serv6 .btn-hero {
-    background-color: #61b848;
-    color: #fff;
-    padding: 1vh 1vw;
-    font-size: 85%;
-    /* margin-top: 4vh; */
-    font-weight: 500;
-    border: 0;
-    border-radius: 5px;
-  }
-  .serv6 .whatsapp {
-    width: 12%;
-  }
+
 .serv6 .section-cards .point p{
     color: #fff;
     font-size: 1.2vw;
